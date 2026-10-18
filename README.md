@@ -73,7 +73,7 @@ Ce projet aborde la problématique complexe de la **détection du sarcasme dans 
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/Mouad-Karma/arabic-sarcasm-detection.git
+git clone https://github.com/Mouad-Karma/arabic-sarcasm-detection-lab.git
 cd ArSarcasm-v2-Detection
 
 # 2. Créer et activer un environnement virtuel
