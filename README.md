@@ -55,7 +55,7 @@ Ce projet aborde la problématique complexe de la **détection du sarcasme dans 
 ## 📂 Structure du Répertoire
 
 ```text
-├── Mouad_Karma_TP_LLM.ipynb            # Notebook Jupyter complet avec code et sorties d'exécution
+├── arabic_sarcasm_detection_lab.ipynb            # Notebook Jupyter complet avec code et sorties d'exécution
 ├── TP2_VersionB_Sarcasme_ArSarcasm-v2.docx # Compte-rendu officiel entièrement rédigé et rempli
 ├── requirements.txt                    # Dépendances Python figées
 ├── Dockerfile                          # Conteneurisation pour reproductibilité totale
@@ -85,7 +85,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 # 4. Lancer Jupyter Notebook
-jupyter notebook Mouad_Karma_TP_LLM.ipynb
+jupyter notebook arabic_sarcasm_detection_lab.ipynb
 ```
 
 ### Option 2 : Exécution via Docker (Recommandé pour isolation totale)
@@ -103,7 +103,7 @@ docker run -p 8888:8888 arsarcasm-llm-tp2
 Ouvrez ensuite votre navigateur sur `http://localhost:8888`.
 
 ### Option 3 : Google Colab (Gratuit avec GPU T4)
-1. Téléversez le fichier `Mouad_Karma_TP_LLM.ipynb` sur [Google Colab](https://colab.research.google.com/).
+1. Téléversez le fichier `arabic_sarcasm_detection_lab.ipynb` sur [Google Colab](https://colab.research.google.com/).
 2. Activez l'accélérateur GPU : **Exécution > Modifier le type d'exécution > T4 GPU**.
 3. Exécutez les cellules séquentiellement.
 
